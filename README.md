@@ -16,9 +16,9 @@
 
 ## Installation
 
-To get started with the Custom CSS Framework, follow these steps:
+To get started with our Custom CSS Framework, we follow these steps:
 
-1. Clone the repository to your local machine:
+1. Clone the repository to our local machine:
 
    ```bash
    git clone https://github.com/tesf0053/Custom-CSS-Framework.git
