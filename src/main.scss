@@ -1,2 +1,7 @@
 @use 'form';
 @use 'utilities';
+
+
+body{
+    background-color: utilities.$primary-color;
+}

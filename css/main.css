@@ -1,18 +1,4 @@
 /* _form.scss */
-.form-style {
-  max-width: 400px;
-  margin: 0 auto;
-  border: 2px solid #ddd;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-label {
-  display: block;
-  margin-bottom: 6px;
-  font-weight: bold;
-}
-
 /* _utilities.scss */
 .sec-1 {
   margin: 8px;
@@ -27,6 +13,24 @@ label {
 .sec-3 {
   margin: 8px;
   padding: 8px;
+}
+
+.form-style {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #9245b5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #fad698;
 }
 
 /*# sourceMappingURL=main.css.map */
