@@ -1,62 +1,16 @@
-/* _buttons.scss */
+// _buttons.scss
 @use 'utilities';
 
 .button-style {
-  background-color:rgb(108, 4, 86);
-  border: 2px solid black;
-  border-radius: 6px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-flex;
-  position: relative;
-  font-size: 16px;
-}
-&:hover {
-    cursor: pointer;
-  }
+  padding: 10px 20px;
+  background-color: utilities.$secondary-color;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 
-&:disabled {
-    color: utilities.$secondary-color;
-    cursor: default;
-    pointer-events: none;
-  }
-$button-sizes: (
-  s: $w45,
-  m: $w95,
-  l: $w150,
-);
-
-$button-colors: (
-  primary: $primary-color,
-  secondary: $secondary-color,
-  success: $success-color,
-  warning: $warning-color,
-  danger: $danger-color,
-);
-
-//utility classes for button sizes
-@each $size, $width in $button-sizes {
-  .#{$size} {
-    width: $width;
-  }
-}
-
-//utility classes for button colors
-@each $color, $bg-color in $button-colors {
-  .btn-#{$color} {
-    @extend .btn;
-    background-color: $bg-color;
-  }
-}
-
-//utility classes for button sizes and colors
-@each $size, $width in $button-sizes {
-  @each $color, $bg-color in $button-colors {
-    .btn-#{$color}-#{$size} {
-      @extend .btn-#{$color};
-      @extend .#{$size};
-    }
+  &:hover {
+    background-color: utilities.$secondary-color;
   }
 }

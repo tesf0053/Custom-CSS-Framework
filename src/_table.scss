@@ -1,11 +1,27 @@
-/* _table.scss */
-@use 'utilities';
-table-style {
-    border: 2px solid black;
-    padding: 15px;
-    width: 60%;
+// _table.scss
+
+.table-style {
+    width: 100%;
     border-collapse: collapse;
-    text-align: left;
-    vertical-align: middle;
-}
-tr:hover {background-color: utilities.$primary-color;}
+    margin-top: 20px;
+  
+    th, td {
+      border: 1px solid #1d1b1b;
+      padding: 8px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #99b1a7ea;
+      color: #fff;
+    }
+  
+    tr:nth-child(even) {
+      background-color: #63cea7;
+    }
+  
+    tr:hover {
+      background-color: #e0e0e0;
+    }
+  }
+  

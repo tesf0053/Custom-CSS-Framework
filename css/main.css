@@ -29,8 +29,42 @@ label {
   font-weight: bold;
 }
 
+.button-style {
+  padding: 10px 20px;
+  background-color: #9245b5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.button-style:hover {
+  background-color: #9245b5;
+}
+
+.table-style {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.table-style th, .table-style td {
+  border: 1px solid #1d1b1b;
+  padding: 8px;
+  text-align: left;
+}
+.table-style th {
+  background-color: rgba(153, 177, 167, 0.9176470588);
+  color: #fff;
+}
+.table-style tr:nth-child(even) {
+  background-color: #63cea7;
+}
+.table-style tr:hover {
+  background-color: #e0e0e0;
+}
+
 body {
   background-color: #fad698;
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.map */
