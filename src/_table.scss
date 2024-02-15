@@ -1,0 +1,11 @@
+/* _table.scss */
+@use 'utilities';
+table-style {
+    border: 2px solid black;
+    padding: 15px;
+    width: 60%;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: middle;
+}
+tr:hover {background-color: utilities.$primary-color;}
