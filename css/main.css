@@ -31,6 +31,7 @@ label {
 
 .button-style {
   padding: 10px 20px;
+  margin-top: 12px;
   background-color: #9245b5;
   color: #fff;
   border: none;
@@ -63,8 +64,131 @@ label {
   background-color: #e0e0e0;
 }
 
+ul {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+ol {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  border-left: 2px solid #3498db;
+  padding-left: 12px;
+  margin: 0 0 16px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background-color: #f8f8f8;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9245b5;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #9245b5;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
 body {
   background-color: #fad698;
 }
 
-/*# sourceMappingURL=main.map */
+/*# sourceMappingURL=main.css.map */
